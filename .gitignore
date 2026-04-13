@@ -1,0 +1,19 @@
+# ambiente
+.venv/
+venv/
+
+# python
+_pycache_/
+*.pyc
+
+# variáveis sensíveis
+.env
+
+# modelos IA (gigantes)
+*.pt
+
+# arquivos temporários / cache
+*.json
+
+# sistema
+.DS_Store
