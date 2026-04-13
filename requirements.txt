@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+playwright
+opencv-python-headless
+numpy
+Pillow
+anthropic
+requests
+python-dotenv
+playwright-stealth
