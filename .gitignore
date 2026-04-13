@@ -1,19 +1,72 @@
-# ambiente
+# =========================
+# AMBIENTE PYTHON
+# =========================
 .venv/
 venv/
+env/
+ENV/
 
-# python
-_pycache_/
+# =========================
+# CACHE PYTHON
+# =========================
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# variáveis sensíveis
+# =========================
+# VARIÁVEIS SENSÍVEIS
+# =========================
 .env
+.env.*
 
-# modelos IA (gigantes)
+# =========================
+# MODELOS DE IA (PESADOS)
+# =========================
 *.pt
+*.onnx
+*.bin
 
-# arquivos temporários / cache
+# =========================
+# ARQUIVOS TEMP / CACHE
+# =========================
 *.json
+*.log
+*.tmp
 
-# sistema
+# =========================
+# PLAYWRIGHT / NAVEGADOR
+# =========================
+profile_ciweb/
+playwright/.local-browsers/
+.browser/
+
+# =========================
+# SISTEMA OPERACIONAL
+# =========================
 .DS_Store
+Thumbs.db
+
+# =========================
+# IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# BUILD / DEPLOY
+# =========================
+dist/
+build/
+*.egg-info/
+
+# =========================
+# NODE (caso use algo)
+# =========================
+node_modules/
+
+# =========================
+# OUTROS
+# =========================
+*.zip
+*.tar.gz
